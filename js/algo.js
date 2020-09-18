@@ -1,19 +1,4 @@
 /*
-Kávéfőző bekapcsolása
-IF nincs elég kávé THEN
-    Kávé Hozzáadása
-ENDIF
-IF nincs elég víz THEN
-    Víz hozzáadása
-ENDIF
-WHILE nem melegedett fel
-    10 mp VÁRAKOZÁS
-ENDWHILE
-Csésze odahelyezése
-Gomb megnoymása
-*/
-
-/*
 
 Összegzés algoritmusa:
 
@@ -24,6 +9,13 @@ CIKLUS AMÍG van még szám, ADDIG
 CIKLUS VÉGE
 
 */
+
+let numericArray = [1, 3, 2, 5, 4, 7, 6, 9];
+let sum = 0;
+for (let i = 0; i < numericArray.length; i++) {
+    sum += numericArray[i];
+}
+console.log("Összeg: ", sum);
 
 /*
 
