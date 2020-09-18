@@ -52,3 +52,17 @@ CIKLUS AMÍG van még szám, ADDIG
 CIKLUS VÉGE
 
 */
+
+/*
+
+Eldöntés tétele (algoritmusa):
+
+találat = HAMIS
+CIKLUS AMÍG van elem ÉS NEM találat
+    szám = következő elem
+    HA igaz a feltétel a számra, AKKOR
+        találat = IGAZ
+    FELTÉTEL VÉGE
+CIKLUS VÉGE
+
+*/
