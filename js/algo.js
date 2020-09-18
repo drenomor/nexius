@@ -12,3 +12,15 @@ ENDWHILE
 Csésze odahelyezése
 Gomb megnoymása
 */
+
+/*
+
+Összegzés algoritmusa:
+
+összeg = 0
+CIKLUS AMÍG van még szám, ADDIG
+    szám = következő elem
+    összeg = összeg + szám
+CIKLUS VÉGE
+
+ */
