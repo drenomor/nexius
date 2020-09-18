@@ -23,4 +23,18 @@ CIKLUS AMÍG van még szám, ADDIG
     összeg = összeg + szám
 CIKLUS VÉGE
 
- */
+*/
+
+/*
+
+Megszámlálás algoritmusa:
+
+db = 0
+CIKLUS AMÍG van még szám, ADDIG
+    szám = következő elem
+    HA igaz a feltétel a számra, AKKOR
+        db = db + 1
+    FELTÉTEL VÉGE
+CIKLUS VÉGE
+
+*/
