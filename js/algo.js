@@ -38,3 +38,17 @@ CIKLUS AMÍG van még szám, ADDIG
 CIKLUS VÉGE
 
 */
+
+/*
+
+Szélsőérték keresés algoritmusa:
+
+legnagyobb = első elem
+CIKLUS AMÍG van még szám, ADDIG
+    szám = következő szám
+    HA szám > lagnagyobb, AKKOR
+        legnagyobb = szám
+    FELTÉTEL VÉGE
+CIKLUS VÉGE
+
+*/
