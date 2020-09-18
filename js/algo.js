@@ -14,6 +14,7 @@ let numericArray = [1, 3, 2, 5, 4, 7, 6, 9];
 let sum = 0;
 for (let i = 0; i < numericArray.length; i++) {
     sum += numericArray[i];
+    console.log(i + ". ciklus után az Összeg: ", sum);
 }
 console.log("Összeg: ", sum);
 
