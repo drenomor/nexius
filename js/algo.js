@@ -31,7 +31,14 @@ CIKLUS AMÍG van még szám, ADDIG
 CIKLUS VÉGE
 
 */
-
+// Számoljuk meg a páros számokat
+let db = 0;
+for (let i = 0; i < numericArray.length; i++) {
+    if (numericArray[i] % 2 == 0) {
+        db++;
+    }
+}
+console.log("Páros számok: ", db);
 /*
 
 Szélsőérték keresés algoritmusa:
