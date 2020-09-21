@@ -72,10 +72,19 @@ Eldöntés tétele (algoritmusa):
 
 találat = HAMIS
 CIKLUS AMÍG van elem ÉS NEM találat
-    szám = következő elem
-    HA igaz a feltétel a számra, AKKOR
-        találat = IGAZ
-    FELTÉTEL VÉGE
+szám = következő elem
+HA igaz a feltétel a számra, AKKOR
+találat = IGAZ
+FELTÉTEL VÉGE
 CIKLUS VÉGE
 
 */
+
+console.log("Eldöntés algoritmusa: Található a listában 5-ös szám?\n\n");
+let contains = false;
+for (let i = 0; i < numericArray.length && contains == false; i++) {
+    if (numericArray[i] == 5) {
+        contains = true;
+    }
+}
+console.log("Ez a tömb tatalmazza az 5-ös számot: ", contains);
