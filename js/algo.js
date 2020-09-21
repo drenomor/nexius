@@ -9,7 +9,7 @@ CIKLUS AMÍG van még szám, ADDIG
 CIKLUS VÉGE
 
 */
-
+console.log("Összegzés algoritmus pld:\n\n");
 let numericArray = [1, 3, 2, 5, 4, 7, 6, 9];
 let sum = 0;
 for (let i = 0; i < numericArray.length; i++) {
@@ -32,6 +32,7 @@ CIKLUS VÉGE
 
 */
 // Számoljuk meg a páros számokat
+console.log("Megszámlálás algoritmus pld: Megszámoljuk a páros számokat!\n\n");
 let db = 0;
 for (let i = 0; i < numericArray.length; i++) {
     if (numericArray[i] % 2 == 0) {
@@ -45,14 +46,26 @@ Szélsőérték keresés algoritmusa:
 
 legnagyobb = első elem
 CIKLUS AMÍG van még szám, ADDIG
-    szám = következő szám
-    HA szám > lagnagyobb, AKKOR
-        legnagyobb = szám
-    FELTÉTEL VÉGE
+szám = következő szám
+HA szám > lagnagyobb, AKKOR
+legnagyobb = szám
+FELTÉTEL VÉGE
 CIKLUS VÉGE
 
 */
 
+console.log("Szélső érték keresése: Maximum, Minimum érték keresése!\n\n");
+let biggest = numericArray[0];
+let smallest = numericArray[0];
+for (let i = 0; i < numericArray.length; i++) {
+    if( numericArray[i] > biggest) {
+        biggest = numericArray[i];
+    } else if (numericArray[i] < smallest) {
+        smallest = numericArray[i];
+    }
+}
+console.log("A legnagyobb elem értéke: ", biggest);
+console.log("A legkisebb elem értéke: ", smallest);
 /*
 
 Eldöntés tétele (algoritmusa):
